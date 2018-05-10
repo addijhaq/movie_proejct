@@ -1,8 +1,8 @@
-package com.techelevator.controller;
+package com.addisonulhaq.controller;
 import java.util.List;
 
-import com.techelevator.model.searchResults.ResultClass;
-import com.techelevator.model.searchResults.ResultsDAO;
+import com.addisonulhaq.model.searchResults.ResultClass;
+import com.addisonulhaq.model.searchResults.ResultsDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;

@@ -1,12 +1,9 @@
 
-package com.techelevator.model.searchResults;
+package com.addisonulhaq.model.searchResults;
 import static com.google.common.base.Preconditions.*;
-import static java.time.format.TextStyle.FULL;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.Month;
-import java.time.format.DateTimeFormatter;
 import java.time.format.TextStyle;
 import java.util.ArrayList;
 import java.util.List;
@@ -14,8 +11,7 @@ import java.util.Locale;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.techelevator.model.movie.Genre;
-import org.springframework.format.annotation.DateTimeFormat;
+import com.addisonulhaq.model.movie.Genre;
 
 public class ResultClass {
 

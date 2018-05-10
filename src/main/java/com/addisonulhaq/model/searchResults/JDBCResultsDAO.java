@@ -1,8 +1,8 @@
-package com.techelevator.model.searchResults;
+package com.addisonulhaq.model.searchResults;
 
 import com.google.gson.Gson;
-import com.techelevator.model.movie.Genre;
-import com.techelevator.model.movie.GenreList;
+import com.addisonulhaq.model.movie.Genre;
+import com.addisonulhaq.model.movie.GenreList;
 import okhttp3.*;
 import org.springframework.stereotype.Component;
 

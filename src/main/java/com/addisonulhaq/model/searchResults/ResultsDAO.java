@@ -1,4 +1,4 @@
-package com.techelevator.model.searchResults;
+package com.addisonulhaq.model.searchResults;
 
 import java.util.List;
 

@@ -1,9 +1,7 @@
-package com.techelevator.controller;
+package com.addisonulhaq.controller;
 
-import java.util.Map;
-
-import com.techelevator.model.movie.Movie;
-import com.techelevator.model.movie.MovieDAO;
+import com.addisonulhaq.model.movie.Movie;
+import com.addisonulhaq.model.movie.MovieDAO;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

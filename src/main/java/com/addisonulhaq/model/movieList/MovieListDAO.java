@@ -1,7 +1,6 @@
-package com.techelevator.model.movieList;
+package com.addisonulhaq.model.movieList;
 
-import com.techelevator.model.movie.Movie;
-import com.techelevator.model.searchResults.ResultClass;
+import com.addisonulhaq.model.movie.Movie;
 
 import java.util.List;
 

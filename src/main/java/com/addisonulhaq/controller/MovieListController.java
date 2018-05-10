@@ -1,14 +1,10 @@
-package com.techelevator.controller;
+package com.addisonulhaq.controller;
 
 import java.util.List;
-import java.util.Map;
 
-import com.techelevator.model.movie.Movie;
-import com.techelevator.model.movie.MovieDAO;
+import com.addisonulhaq.model.movie.Movie;
 
-import com.techelevator.model.movieList.MovieList;
-import com.techelevator.model.movieList.MovieListDAO;
-import com.techelevator.model.searchResults.ResultClass;
+import com.addisonulhaq.model.movieList.MovieListDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

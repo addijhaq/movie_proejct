@@ -1,8 +1,6 @@
-package com.techelevator.model.movie;
+package com.addisonulhaq.model.movie;
 
 import com.google.gson.Gson;
-import com.techelevator.model.searchResults.ResultClass;
-import com.techelevator.model.searchResults.ResultsPageList;
 import okhttp3.*;
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,9 +9,6 @@ import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 @Component
 public class JDBCMovieDAO implements MovieDAO {

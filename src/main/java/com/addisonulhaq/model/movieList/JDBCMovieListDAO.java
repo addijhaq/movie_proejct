@@ -1,14 +1,9 @@
-package com.techelevator.model.movieList;
+package com.addisonulhaq.model.movieList;
 
 import com.google.gson.Gson;
-import com.sun.org.apache.bcel.internal.generic.MONITORENTER;
-import com.sun.org.apache.bcel.internal.generic.Select;
-import com.techelevator.model.movie.*;
-import com.techelevator.model.searchResults.ResultClass;
-import com.techelevator.model.searchResults.ResultsPageList;
+import com.addisonulhaq.model.movie.*;
 import okhttp3.*;
 import org.apache.commons.dbcp2.BasicDataSource;
-import org.apache.commons.digester3.annotations.FromAnnotationsRuleModule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.support.rowset.SqlRowSet;
@@ -16,12 +11,9 @@ import org.springframework.stereotype.Component;
 
 
 import javax.sql.DataSource;
-import javax.xml.transform.Result;
-import java.io.BufferedReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 @Component
 public class JDBCMovieListDAO implements MovieListDAO {

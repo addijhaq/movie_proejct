@@ -1,9 +1,7 @@
-package com.techelevator.controller;
+package com.addisonulhaq.controller;
 
-import com.techelevator.model.searchResults.JDBCResultsDAO;
-import com.techelevator.model.searchResults.ResultClass;
-import com.techelevator.model.searchResults.ResultsDAO;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.addisonulhaq.model.searchResults.JDBCResultsDAO;
+import com.addisonulhaq.model.searchResults.ResultClass;
 
 import java.util.List;
 
